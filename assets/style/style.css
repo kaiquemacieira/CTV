@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    --color-slate-grey: #444444;
+    --color-jet-black: #181818;
+    --color-yellow: #cf8a05;
+    --color-offwhite: #f3f3f3;
+    --color-light-grey: #dedede;
+    --font-h1: 'Lato', 'Helvetica', 'Arial', sans-serif;
+    --font-h2: 'Rokkitt' 'Helvetica' 'Arial',sans-serif;
+    --font-h3: 'Rokkitt';
+}
+
+body {
+    background-color: var(--color-offwhite);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--font-h1);
+    max-width: 900px;
+    
+}
+
+.mainDetails ul {
+    list-style: none;
+    color: var(--color-jet-black);
+}
+
+.clear {
+	clear: both;    
+    border-bottom: solid;
+    border-color: var(--color-light-grey);
+    border-width: 1px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+/*parte do cabeçalho amarelo*/
+
+#traço_amarelo {
+	clear: both;
+    border-bottom: solid;
+    border-color: var(--color-yellow);
+    border-width: 2px;
+}
+
+#headshot {
+	float: left;
+    margin-bottom: 20px;
+}
+
+/* parte superior direita */
+
+a{
+    text-decoration: none;
+    color: var(--color-jet-black);
+}
+
+.keySkills {
+    list-style: none;
+    column-count: 3;
+
+}
+
+img{
+    border-radius: 50%;
+    width: 120px;
+}
+
+/*Nome e title */
+
+#name {
+	float: left;
+    font-family: var(--font-h2);
+    margin-left: 40px;
+    
+}
+
+
+.contactDetails {
+	float: right;
+    text-decoration: none;
+}
+
+#name h2{
+    margin-top: -25px;
+    
+}
+
+
+.sectionTitle {
+	float: left;
+    width: 25%;
+    font-style: italic;
+    font-family: var(--font-h2);
+    color: var(--color-yellow);
+    padding-left: 15px;
+    
+   
+}
+
+.subDetails {
+    font-style: italic;
+    margin-bottom: -15px;
+
+}
+
+.sectionContent {
+	float: right;
+	color: var(--color-slate-grey);
+    font-family: var(--font-h2);
+    width: 72%;
+}
+
+.sectionContent h2 {
+	color:var(--color-jet-black);
+}
+
